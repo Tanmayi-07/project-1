@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #0ABAB5;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        section:nth-of-type(odd) {
+            background-color: #ffebcd;
+        }
+        section:nth-of-type(even) {
+            background-color: #fffacd;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color:#0ABAB5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color:#0ABAB5;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            background-color:#0ABAB5;
+            
+        }
+        @media (max-width: 1024px) {
+            header {
+                text-align: center;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            section {
+                padding: 30px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href ="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="profile-image">
+            <img src="C:\Users\CH.TANMAYI\OneDrive\Pictures\passport size.jpg"alt="Profile Image">
+        </section> </div> 
+    <section id="about">
+        <h1>About Me</h1>
+        <p>My name is Ch.Tanmayi,I am an enthusiastic and dedicated engineering student with a passion for innovation and problem-solving. Currently pursuing my degree in CSE at Raghu Institute Of Technology, I thrive on challenges and am constantly seeking opportunities to expand my knowledge and skills.</p>
+    </section>
+    <section id="projects">
+        <h1>Projects</h1>
+        <p>Built a To-Do list , which gave me a hands-on experience. </p>
+    </section>
+    <section id = "education">
+        <h1>education</h1>
+        <p>Completed my primary education at Sri Chaitanya Techno School (99%) </p>
+        <p>Completed my secondary education at Sri Chaitanya junior college(90%)</p>
+        <p>Studying my B.tech  CSE at Raghu Institute of Technology (3-1(8.52))</p>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <p>Programming and Technical Proficiency.Experienced in web development with HTML, CSS, JavaScript , Analytical and Problem-Solving Abilities , Teamwork and Leadership</p>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>For further information, you can feel free to text me mail:223j1a0543@raguinstech.com .</p>
+    </section>
+</body>
+</html>
